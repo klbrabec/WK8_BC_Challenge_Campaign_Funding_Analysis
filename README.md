@@ -11,14 +11,20 @@ This challenge assignment is intended to exercise the following
 
 ## Data Extracts
 Source data was provided in the form of a series of CSV files which can be found here: 
-[Resource Files] (https://github.com/klbrabec/WK8_BC_Challenge_Campaign_Funding_Analysis/tree/main/Resource%20FIles)
+[Resource Files](https://github.com/klbrabec/WK8_BC_Challenge_Campaign_Funding_Analysis/tree/main/Resource%20FIles)
 
 ## Data Transformation
 The only file that was not provided, but instead built during the extract/transform process is backer_info.  This file was extracted from a file provided as part of the assignment, and transformed to include campaign ID, contact ID, First and Last Name and email address.  Code for the data transformation was done in Jupyter Notebook using Python and its various libraries and modules.    
 [Code for transformation:](https://github.com/klbrabec/WK8_BC_Challenge_Campaign_Funding_Analysis/blob/main/Extract-Transform_Final_code.ipynb)
+
 This extract was done in two different methods, one using standard Pandas Python, and one using Regex expressions.
 [Pandas Python Results](https://github.com/klbrabec/WK8_BC_Challenge_Campaign_Funding_Analysis/blob/main/Resource%20FIles/backer_info.csv)
+
 [Regex Results](https://github.com/klbrabec/WK8_BC_Challenge_Campaign_Funding_Analysis/blob/main/r_backers_data.csv)
+
+## Database Schema
+The database built for this project has the following schema: 
+![Database Schema](https://github.com/klbrabec/WK8_BC_Challenge_Campaign_Funding_Analysis/blob/c7f80424c890818b61acbf4a1586d01ae80bfe37/crowdfunding_relationship_diagram_101522.png)
 
 ## Data Queries 
 A number of queries were executed against the data to return various information. Queries can be found in this file: 
